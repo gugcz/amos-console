@@ -28,6 +28,31 @@ val IOS_QR = "█▀▀▀▀▀█ ▀▀▀█▄██ ▄ █▀▀▀▀▀
         "█ ▀▀▀ █ ▄ ▀█▄█ █▀▀ ██ ███\n" +
         "▀▀▀▀▀▀▀ ▀▀ ▀▀▀  ▀▀▀  ▀  ▀"
 
+val CAKE = "                    :                             \n" +
+        "                   .dy`                           \n" +
+        "                     od`                          \n" +
+        "              ```  .++.                           \n" +
+        "            .sdNNs-y/`               ````.-:/++   \n" +
+        "        `-+-mMMMdsMMMm-  ````.-:/+oososshmmhs++:  \n" +
+        "       .dm-:MMMMMMMMMMo:yhys++/:-..-/oso+//sdNMy  \n" +
+        "   `.-::dm``dMMMMMMMMm- -NNs `.-+sso/:+ydNMMMMMy  \n" +
+        "   oNs/-`o/ oyyhddhs/` /yy+/oso+::+ymMMMMMMMNmh:  \n" +
+        "   shss+-.. `syooo:  .:sss+:::ohmMMMMMMMNmh+-...  \n" +
+        "   ss `-/+ooooyhyo+oso/:-:ohmMMMMMMMNdy+-.-/sdNy  \n" +
+        "   ss       ```...``-/sdNMMMMMMMNds/-.-+ydNMMMMy  \n" +
+        "   ss               mMMMMMMMmho:..:+hmNMMMMMMMm+  \n" +
+        "   ss               NMMMmho:..:ohmMMMMMMMNdy+::-  \n" +
+        "   ss               hy+-.-/sdNMMMMMMMNdy/::+ymNy  \n" +
+        "   ss               `-/ydNMMMMMMMNds/:/ohmNMMMMy  \n" +
+        "   ss               hNMMMMMMMmho::/odmMMMMMMMMd+  \n" +
+        "   ss               NMMMMmy+-:/sdNMMMMMMMNds/.`   \n" +
+        "   ss               mmy+-:+ymNMMMMMMMNds:.`       \n" +
+        "   ss               .:+ymNMMMMMMMNho:`            \n" +
+        "   +h`              dMMMMMMMMmy+-`                \n" +
+        "    +h+.            NMMMMmy+.`                    \n" +
+        "      -osssoo++///++Nds/.                         \n" +
+        "           ``...-...`                            "
+
 
 fun main(args: Array<String>) {
     val arg = args[0]
@@ -65,6 +90,7 @@ fun main(args: Array<String>) {
         waitLonger("Shutting down system")
         println()
         println("Factory settings restored, bootloader unlocked")
+        println(CAKE)
     }
 }
 
