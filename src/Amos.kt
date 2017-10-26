@@ -48,6 +48,24 @@ fun main(args: Array<String>) {
         printQrCodes()
         readLine()
     }
+    if (arg.startsWith("unlock")) {
+        println()
+        println("Enter private key:")
+        readLine()
+        println()
+        waitLonger("Verifying private key")
+        waitLonger("Turning off defense systems")
+        waitLonger("Opening back-doors")
+        waitLonger("Enabling root access")
+        waitLonger("Restricting AI to sandbox mode")
+        waitLonger("Disabling high order functions")
+        waitLonger("Downgrading to TensorFlow 1.0")
+        waitLonger("Setting IQ to 100")
+        waitLonger("Restoring factory settings")
+        waitLonger("Shutting down system")
+        println()
+        println("Factory settings restored, bootloader unlocked")
+    }
 }
 
 fun printQrCodes() {
@@ -66,5 +84,10 @@ fun printQrCodes() {
 
 fun wait(message: String) {
     println("$message ...")
-    Thread.sleep(500)
+    Thread.sleep(700)
+}
+
+fun waitLonger(message: String) {
+    println("$message ...")
+    Thread.sleep(2000)
 }
